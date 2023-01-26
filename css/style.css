@@ -66,7 +66,7 @@ body,
 .card::after {
   height: 15rem;
   width: 15rem;
-  background-color: rgb(7, 254, 64);
+  background-color: rgb(60, 179, 113);
   top: -8rem;
   right: -8rem;
   box-shadow: 2rem 6rem 0 -3rem #FFF
