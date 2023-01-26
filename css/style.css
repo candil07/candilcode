@@ -42,7 +42,7 @@ body,
 .card {
   padding: 1.5rem 2rem;
   border-radius: 10px;
-  max-width: 768px;
+  max-width: 500px;
   box-shadow: 0 0 30px rgba(0, 0, 0, .15);
   margin: 1rem;
   position: relative;
@@ -209,12 +209,13 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 30%;
   padding: 0 10px;
   width: 100%;
   display: flex;
     align-items: center;
-    justify-content: center;
+ justify-content: center;
+max-height: 100%;
 }
 h2 {
   text-transform: uppercase;
