@@ -1,0 +1,74 @@
+<!doctype html>
+<html ⚡ lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>404 - Halaman Tidak Ditemukan</title>
+  <link rel="canonical" href="https://www.candil.eu.org/404.html">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style amp-custom>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      --hue: 223;
+      --bg: hsl(var(--hue),10%,90%);
+      --fg: hsl(var(--hue),10%,10%);
+      --primary: hsl(var(--hue),90%,45%);
+      --trans-dur: 0.3s;
+    }
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    main {
+      max-width: 480px;
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    a.btn {
+      display: inline-block;
+      padding: 0.75em 1.5em;
+      background: var(--primary);
+      color: white;
+      border-radius: 2em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.btn:active {
+      background: hsl(var(--hue),90%,60%);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: hsl(var(--hue),10%,20%);
+        --fg: hsl(var(--hue),10%,90%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>Oops! Halaman yang kamu cari tidak ditemukan.</p>
+    <a href="/" class="btn">Kembali ke Beranda</a>
+  </main>
+</body>
+</html>
